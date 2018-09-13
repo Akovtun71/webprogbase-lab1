@@ -1,0 +1,107 @@
+#home-icon{
+    height: 60px;
+    width:  80px;
+    display: inline-block;
+    background: url(../images/market-log.png);
+    background-size: cover;
+}   
+
+.header:hover > #home-icon{
+    background: url(../images/market-log.gif);
+    background-size: cover; 
+}
+
+.header > img{
+    height: 40px;
+    width:  60px;
+}
+
+.container{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(61, 79, 139);
+    font-size: 35px;
+} 
+
+/** 
+*
+* MENU
+*
+**/
+
+.menu{
+    width: 100%;
+    background-color: rgba(70, 131, 180, 0.315);
+
+
+}
+
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.menu-list > li{
+    /* display: flex;
+    flex-direction: row; */
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    line-height: 2.5em;
+    width: 4em;    
+    height: 2.5em;
+    text-align: center;
+}
+
+.menu-list :first-child{
+    margin-left: 0px;
+    padding-left: -25px;
+}
+
+.menu-list > li:not(.active):hover{
+    background-color: aliceblue;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-list > li > a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.active{
+    background-color : rgb(205, 230, 252);
+    border: #4a54d871 2px solid;
+}
+
+/** 
+*
+* CONTENT
+*
+**/
+
+.content{
+    background-color: #f7f7f7;
+    width: 100%
+
+}
