@@ -232,3 +232,16 @@ th {
     border-bottom: #000 1px solid;
     color: #000;
 }
+
+.extra-imgs img{
+    height: 200px;
+    margin: 3px;
+}
+
+.extra-imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+ 
