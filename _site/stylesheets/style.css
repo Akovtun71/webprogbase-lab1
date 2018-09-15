@@ -67,8 +67,6 @@ body{
 }
 
 .menu-list > li{
-    /* display: flex;
-    flex-direction: row; */
     list-style: none;
     display: inline-block;
     margin-left: 15px;
@@ -172,10 +170,6 @@ th {
     border: rgba(0, 119, 255, 0.198) 5px double;
 }
 
-/* .user-img-div{
-    width: 150px;
-    height: 150px;
-} */
 
 /** 
 *
